@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.cell {
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;    
+    cursor: pointer;
+    font-size: 2em; /* Make text larger */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; /* Center text vertically */
+}
+
+.container {
+    border: 2px solid rgb(192, 227, 35);;
+    margin: 10px 510px 0 510px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(123, 210, 17);
+}
+
+#reset {
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgb(79, 214, 131);
+    cursor: pointer;
+}
+button:hover#reset{
+    background-color:rgb(75, 152, 105);
+}
+button:hover{
+    background-color:rgb(192, 227, 35);
+}
+#message{
+    margin: 0 95px;
+    background-color:rgb(75, 152, 105);  
+    border-radius: 5px;
+    color: black;
+}
